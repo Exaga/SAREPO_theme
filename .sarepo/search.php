@@ -12,7 +12,7 @@ include 'html_head.php.inc';
       <tr>
         <th><span class="banner_title" align="left">SAREPO</span><br /><span class="title" align="left">Slackware ARM local mirror repository</span></th>
 		<th align="center"><a href="/slackwarearm/"><img src="/slackwarearm/.sarepo/sarepo_home.png" title="Home - Main Index" alt="Home - Main Index"/></a></th>
-        <th align="right"><a href="https://github.com/Exaga/SAREPO_theme"><img src="/slackwarearm/.sarepo/SAREPO_Logo.png" title="SAREPO_theme on GitHub" alt="SAREPO_theme on GitHub"/></a></th>
+        <th align="right"><a href="https://github.com/Exaga/SAREPO_theme" target="_blank"><img src="/slackwarearm/.sarepo/SAREPO_Logo.png" title="SAREPO_theme on GitHub" alt="SAREPO_theme on GitHub"/></a></th>
       </tr>
     </table>
 	<div id="searchform">
