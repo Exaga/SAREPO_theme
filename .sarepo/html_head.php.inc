@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>SAREPO - Search results</title>
+  <title>SAREPO - Local Mirror</title>
   <meta name="keywords" content="SAREPO, sarepo">
   <meta name="description" content="SAREPO is a bash script which creates a Slackware ARM local mirror repository. This SAREPO theme is an Apache mod_autoindex fancyindexing front-end for viewing the local mirror repository in a browser.">
   <meta name="abstract" content="SAREPO theme for Apache mod_autoindex fancyindexing.">
