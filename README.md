@@ -42,6 +42,14 @@ root@slackware:~# ln -s /home/username/public_html/slackwarearm slackwarearm
 
 Access the Slackware ARM local mirror repository in a browser [e.g. http://localhost/slackwarearm or http://192.168.10.20/slackwarearm] to view the SAREPO_theme in effect.
 
+![Image1](https://user-images.githubusercontent.com/19157861/189724543-b48a258d-36a0-4fe6-b00d-4fcea33aeeec.jpg)
+
+### Notes ###
+* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate towards customizing it.
+* When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
+* While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
+
+
 ### Uninstalling ###
 Delete the .htaccess file and .sarepo directory from the Slackware ARM local mirror repository root directory.
 ```
@@ -49,8 +57,4 @@ username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.htaccess
 username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.sarepo
 ```
 
-### Notes ###
-* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate towards customizing it.
-* When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
-* While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
 
