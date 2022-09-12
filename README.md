@@ -5,6 +5,11 @@ SAREPO_theme features a basic file search function that's PHP driven. **Blank sp
 
 ![Image1](https://user-images.githubusercontent.com/19157861/189742610-ed412292-0a20-465a-9e56-9b4cfcf760d6.jpg)
 
+### Notes ###
+* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate towards customizing it.
+* When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
+* While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
+
 ![Image2](https://user-images.githubusercontent.com/19157861/189724616-551b75b5-cb33-49cc-86dd-71eadfb69298.jpg)
 
 **NB:** the SAREPO_theme has been designed to work with a Slackware ARM local mirror repository root directory named "slackwarearm". The  https://github.com/Exaga/local-slackwarearm-repo script creates this directory when it is first run. You can spend the time and effort editing this SAREPO_theme to suit your own requirements, but running and using it with the https://github.com/Exaga/local-slackwarearm-repo script is by far the easiest option. It's advised and prudent to setup and run that script first before installing this SAREPO_theme.
@@ -42,6 +47,9 @@ root@slackware:~# ln -s /home/username/public_html/slackwarearm slackwarearm
 
 Access the Slackware ARM local mirror repository in a browser [e.g. http://localhost/slackwarearm or http://192.168.10.20/slackwarearm] to view the SAREPO_theme in effect.
 
+![Image1](https://user-images.githubusercontent.com/19157861/189724543-b48a258d-36a0-4fe6-b00d-4fcea33aeeec.jpg)
+
+
 ### Uninstalling ###
 Delete the .htaccess file and .sarepo directory from the Slackware ARM local mirror repository root directory.
 ```
@@ -49,8 +57,4 @@ username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.htaccess
 username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.sarepo
 ```
 
-### Notes ###
-* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate towards customizing it.
-* When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
-* While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
 
