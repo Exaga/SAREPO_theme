@@ -1,7 +1,7 @@
 # SAREPO_theme
 SAREPO_theme is an Apache mod_autoindex fancyindexing front-end for viewing a Slackware ARM local mirror repository in a browser. It is designed to support https://github.com/Exaga/local-slackwarearm-repo and work in conjunction with the repository that's created and managed by that process.
 
-SAREPO_theme features a basic file search function that's PHP driven. **Blank spaces and/or wildcards are unsupported search parameters!** PHP needs to be enabled on the host server in order to use the search function. For those who do not have PHP server capabilities, header.html and footer.html files are available.
+SAREPO_theme features a basic file search function that's PHP driven. **Blank spaces and/or wildcards are unsupported search parameters!** PHP needs to be enabled on the host server in order to use the search function. For those who do not have PHP server capabilities, header.html and footer.html files are included.
 
 ![Image1](https://user-images.githubusercontent.com/19157861/189742610-ed412292-0a20-465a-9e56-9b4cfcf760d6.jpg)
 
