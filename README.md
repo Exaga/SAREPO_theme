@@ -9,6 +9,11 @@ SAREPO_theme features a basic file search function that's PHP driven. **Blank sp
 
 **NB:** the SAREPO_theme has been designed to work with a Slackware ARM local mirror repository root directory named "slackwarearm". The  https://github.com/Exaga/local-slackwarearm-repo script creates this directory when it is first run. You can spend the time and effort editing this SAREPO_theme to suit your own requirements, but running and using it with the https://github.com/Exaga/local-slackwarearm-repo script is by far the easiest option. It's advised and prudent to setup and run that script first before installing this SAREPO_theme.
 
+### Downloading ###
+```
+username@slackware:~# git clone https://github.com/Exaga/SAREPO_theme
+```
+
 ### Installing ###
 Copy the .htaccess file and .sarepo directory to the normal users' Slackware ARM local mirror repository root directory. e.g. /home/username/public_html/slackwarearm/
 
