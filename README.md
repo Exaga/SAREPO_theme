@@ -30,7 +30,7 @@ $pathSearchDir = '/home/username/public_html/slackwarearm';
 ```
 
 
-As 'root' user, add a symlink to the Apache web root directory that points to the /home/username/public_html/slackwarearm dir:
+As 'root' user, add a symlink to the Apache web document root directory that points to the /home/username/public_html/slackwarearm dir:
 ```
 root@slackware:~# cd /var/www/htdocs 
 root@slackware:~# ln -s /home/username/public_html/slackwarearm slackwarearm
