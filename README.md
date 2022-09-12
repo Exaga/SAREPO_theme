@@ -3,6 +3,10 @@ SAREPO_theme is an Apache mod_autoindex fancyindexing front-end for viewing a Sl
 
 SAREPO_theme features a basic file search function that's PHP driven. Blank spaces and/or wildcards are not supported. PHP needs to be enabled on the host server in order to use the search function.
 
+![Image1](https://user-images.githubusercontent.com/19157861/189724543-b48a258d-36a0-4fe6-b00d-4fcea33aeeec.jpg)
+
+![Image2](https://user-images.githubusercontent.com/19157861/189724616-551b75b5-cb33-49cc-86dd-71eadfb69298.jpg)
+
 **NB:** the SAREPO_theme has been designed to work with a Slackware ARM local mirror repository root directory named "slackwarearm". The  https://github.com/Exaga/local-slackwarearm-repo script creates this directory when it is first run. You can spend the time and effort editing this SAREPO_theme to suit your own requirements, but running and using it with the https://github.com/Exaga/local-slackwarearm-repo script is by far the easiest option. It's advised and prudent to setup and run that script first before installing this SAREPO_theme.
 
 ### Installing ###
@@ -22,6 +26,7 @@ Edit the .sarepo/search.php file and set the $pathSearchDir variable. This is th
 // Enter the FULL path of the root search directory
 $pathSearchDir = '/home/username/public_html/slackwarearm';
 ```
+
 
 As 'root' user, add a symlink to the Apache web root directory that points to the /home/username/public_html/slackwarearm dir:
 ```
