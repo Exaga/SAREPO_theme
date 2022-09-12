@@ -1,9 +1,9 @@
 # SAREPO_theme
 SAREPO_theme is an Apache mod_autoindex fancyindexing front-end for viewing a Slackware ARM local mirror repository in a browser. It is designed to support https://github.com/Exaga/local-slackwarearm-repo and work in conjunction with the repository that's created and managed by that process.
 
-SAREPO_theme features a basic file search function that's PHP driven. Blank spaces and/or wildcards are not supported. PHP needs to be enabled on the host server in order to use the search function.
+SAREPO_theme features a basic file search function that's PHP driven. **Blank spaces and/or wildcards are unsupported search parameters!** PHP needs to be enabled on the host server in order to use the search function. For those who do not have PHP server capabilities, header.html and footer.html files are available.
 
-![Image1](https://user-images.githubusercontent.com/19157861/189724543-b48a258d-36a0-4fe6-b00d-4fcea33aeeec.jpg)
+![Image1](https://user-images.githubusercontent.com/19157861/189742610-ed412292-0a20-465a-9e56-9b4cfcf760d6.jpg)
 
 ![Image2](https://user-images.githubusercontent.com/19157861/189724616-551b75b5-cb33-49cc-86dd-71eadfb69298.jpg)
 
@@ -21,7 +21,6 @@ Edit the .htaccess file in the root dir (**NOT** the one in the .sarepo dir!) an
   ReadmeName "/slackwarearm/.sarepo/footer.php"
 ```
 **NB:** There are header.html and footer.html files available for those who do not have PHP server capabilities. In this case, just change header.php and footer.php to header.html and footer.html respectively.
-
 
 Edit the .sarepo/search.php file and set the $pathSearchDir variable. This is the full path to the Slackware ARM local mirror repository root directory named "slackwarearm".
 ```
@@ -44,4 +43,9 @@ Delete the .htaccess file and .sarepo directory from the Slackware ARM local mir
 username@slackware:~# rm -rf /home/username/public_html/slackwarearm/.htaccess
 username@slackware:~# rm -rf /home/username/public_html/slackwarearm/.sarepo
 ```
+
+### Notes ###
+* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate to customizing it.
+* When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
+* While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
 
