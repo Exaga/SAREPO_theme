@@ -50,7 +50,7 @@ username@slackware:~# rm -rf /home/username/public_html/slackwarearm/.sarepo
 ```
 
 ### Notes ###
-* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate to customizing it.
+* This SAREPO_theme is highly configurable - it all depends on how much time and effort one wants to dedicate towards customizing it.
 * When browsing via the directory tree, the "Index of ./**path**/**of**/**dir**" elements can be clicked on and used for navigation.
 * While using the search function, a "Home" icon appears at the top of the screen which can be clicked on to take you back to the main index page.
 
