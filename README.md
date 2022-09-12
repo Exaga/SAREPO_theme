@@ -20,7 +20,7 @@ Edit the .htaccess file in the root dir (**NOT** the one in the .sarepo dir!) an
   HeaderName "/slackwarearm/.sarepo/header.php"
   ReadmeName "/slackwarearm/.sarepo/footer.php"
 ```
-There are header.html and footer.html files available for those who do not have PHP server capabilities. In this case, just change header.php and footer.php to header.html and footer.html respectively.
+**NB:** There are header.html and footer.html files available for those who do not have PHP server capabilities. In this case, just change header.php and footer.php to header.html and footer.html respectively.
 
 
 Edit the .sarepo/search.php file and set the $pathSearchDir variable. This is the full path to the Slackware ARM local mirror repository root directory named "slackwarearm".
