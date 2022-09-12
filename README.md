@@ -11,7 +11,7 @@ SAREPO_theme features a basic file search function that's PHP driven. **Blank sp
 
 ### Downloading ###
 ```
-username@slackware:~# git clone https://github.com/Exaga/SAREPO_theme
+username@slackware:~$ git clone https://github.com/Exaga/SAREPO_theme
 ```
 
 ### Installing ###
@@ -34,7 +34,7 @@ $pathSearchDir = '/home/username/public_html/slackwarearm';
 ```
 
 
-As 'root' user, add a symlink to the Apache web document root directory that points to the /home/username/public_html/slackwarearm dir:
+As '**root**' user, add a symlink to the Apache web document root directory that points to the /home/username/public_html/slackwarearm dir:
 ```
 root@slackware:~# cd /var/www/htdocs 
 root@slackware:~# ln -s /home/username/public_html/slackwarearm slackwarearm
@@ -45,8 +45,8 @@ Access the Slackware ARM local mirror repository in a browser [e.g. http://local
 ### Uninstalling ###
 Delete the .htaccess file and .sarepo directory from the Slackware ARM local mirror repository root directory.
 ```
-username@slackware:~# rm -rf /home/username/public_html/slackwarearm/.htaccess
-username@slackware:~# rm -rf /home/username/public_html/slackwarearm/.sarepo
+username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.htaccess
+username@slackware:~$ rm -rf /home/username/public_html/slackwarearm/.sarepo
 ```
 
 ### Notes ###
