@@ -1,0 +1,111 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  color: #212121;
+  font-size: 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.2;
+}
+
+body {
+  min-height: 100vh;
+  border-top: 0.3rem solid #bd1143;
+  border-bottom: 0.3rem solid #bd1143;
+}
+
+a {
+  color: #6200ea;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+table {
+  text-align: left;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+
+table tr>td:hover {
+  background: rgba(128,128,128,0.5);
+}
+
+table tr .indexcolicon a {
+  padding: 0rem 0.1rem;
+  border: none;
+}
+
+#container { 
+  margin: auto;
+  width: 100%;
+}
+
+#content { 
+  background-color: transparent;
+  border: 1px solid #989898; 
+  padding: 0.15rem 0.5rem 0.3rem 0.5rem;
+  width: 100%; 
+  margin-top: 2rem; 
+  margin-left: 0rem;
+  margin-right: 0rem;
+  border-radius: 0.875rem;
+}
+
+#searchform { 
+  text-align: center;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+input[type="submit"]{
+  height: 1.5rem;
+  width: 5rem;
+}
+
+input[type=text] {
+  padding: 0.15rem 0.15rem; 
+  line-height: 0.875rem;
+  border: 0.1rem solid #bd1143;
+  border-radius: 0.2rem;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  max-width: 56rem;
+}
+
+.banner_title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.pathindex {
+  margin-left: 1rem;
+}
+
+.footxt {
+  font-size: 0.75rem;
+}
+
+.title .js-path a {
+  padding: 0 0.25rem 0;
+}
+
+footer,
+address {
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  font-size: 0.688rem;
+  opacity: 0.875;
+}

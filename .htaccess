@@ -1,0 +1,31 @@
+# SAREPO .htaccess file - 08 Sep 2022 14:48:35 UTC
+
+# .htaccess protection
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+ order allow,deny
+ deny from all
+</Files>
+
+Options +Indexes +Includes +ExecCGI
+
+IndexIgnore index.php index.html index.shtml index.htm cgi-bin .sarepo*
+
+# mod_autoindex options
+<IfModule mod_autoindex.c>
+
+  # Index options
+  IndexOptions +AddAltClass +Charset=UTF-8 +FancyIndexing +FoldersFirst +HTMLTable +SuppressHTMLPreamble
+  IndexOptions +IgnoreCase +NameWidth=* +SuppressRules +SuppressDescription +IconsAreLinks
+
+  # CSS and HTML/PHP output 
+  IndexStyleSheet "/slackwarearm/.sarepo/sarepo_theme.css"  
+  HeaderName "/slackwarearm/.sarepo/header.php"
+  ReadmeName "/slackwarearm/.sarepo/footer.php"
+
+  # MIME settings
+  AddHandler application/x-httpd-php74 .php
+  AddType text/html .html .php .shtml
+  AddOutputFilter INCLUDES .shtml
+
+</IfModule>
+
