@@ -23,7 +23,6 @@ IndexIgnore index.php index.html index.shtml index.htm cgi-bin .sarepo*
   ReadmeName "/slackwarearm/.sarepo/footer.php"
 
   # MIME settings
-  AddHandler application/x-httpd-php74 .php
   AddType text/html .html .php .shtml
   AddOutputFilter INCLUDES .shtml
 
