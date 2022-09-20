@@ -3,7 +3,7 @@
   </div>
   <footer>
    <p>Host: <?php echo $_SERVER['HTTP_HOST']; ?>:<?php echo $_SERVER['SERVER_PORT']; ?> &bull; Remote: <?php echo $_SERVER['REMOTE_ADDR']; ?>:<?php echo $_SERVER['REMOTE_PORT']; ?></p>
-    <p align="center"><a href="https://httpd.apache.org" target="_blank"><img src="https://sarpi.penthux.net/images/linkbanners/apache_88x31_trans.png" title="SAREPO is powered by Apache/2.x (Unix)" width="88" height="31"></a></p>
+    <p align="center"><a href="https://httpd.apache.org" target="_blank"><img src="https://sarpi.penthux.net/images/linkbanners/apache_88x31_trans.png" title="SAREPO is powered by <?php echo $_SERVER['SERVER_SOFTWARE']; ?>" width="88" height="31"></a></p>
   </footer>
   </div>
   <script>
