@@ -49,6 +49,8 @@ root@slackware:~# ln -s /home/username/public_html/slackwarearm slackwarearm
 
 Access the Slackware ARM local mirror repository in a browser [e.g. http://localhost/slackwarearm or http://192.168.10.20/slackwarearm] to view the SAREPO_theme in effect.
 
+* There may be other settings (e.g. within the .htaccess file) that you need to review, or add, in order to suit your existing system setup.
+
 ![Image1](https://user-images.githubusercontent.com/19157861/189724543-b48a258d-36a0-4fe6-b00d-4fcea33aeeec.jpg)
 
 
