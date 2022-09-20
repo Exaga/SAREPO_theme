@@ -3,7 +3,7 @@ SAREPO_theme is an Apache mod_autoindex fancyindexing front-end for viewing a Sl
 
 ### SAREPO_theme working LIVE demo: https://sarpi.penthux.net/index.php?p=sarepo ###
 
-SAREPO_theme features a basic file search function that's PHP driven. **Blank spaces and/or wildcards are unsupported search parameters!** PHP needs to be enabled on the host server in order to use the search function. For those who do not have PHP server capabilities, header.html and footer.html files are included.
+SAREPO_theme features a basic file search function that's PHP driven. **Blank spaces and/or wildcards are unsupported search parameters!** PHP v7+ needs to be enabled on the host server in order to use the search function. For those who do not have PHP v7+ capabilities, header.html and footer.html files are included.
 
 ![Image1](https://user-images.githubusercontent.com/19157861/189742610-ed412292-0a20-465a-9e56-9b4cfcf760d6.jpg)
 
