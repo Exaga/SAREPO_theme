@@ -17,7 +17,7 @@ include 'html_head.php.inc';
     </table>
 	<div id="searchform">
 	<p><form action="" method="post">
-      <input type="text" name="query" size="35" placeholder="Case sensitive file search..." />
+      <input type="text" name="query" size="35" placeholder="Case sensitive filename search..." />
       <input type="submit" value="Search" />
     </form></p></div>
 <div id="content">
