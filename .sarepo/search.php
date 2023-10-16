@@ -1,5 +1,7 @@
 <?php
 
+// search.php by MavdogLP - 12 Oct 2023 - (He dit something and its Working) ¯\_(ツ)_/¯
+
 // Enter the FULL path of the root search directory
 $pathSearchDir = '/home/phil/public_html/slackwarearm';
 
